@@ -1,0 +1,61 @@
+## ===============================
+## ASP.NET Core / Visual Studio
+## ===============================
+
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# ASP.NET Core
+Properties/PublishProfiles/
+Properties/ServiceDependencies/
+aspnetcore-runtimeconfig.json
+
+# dotnet watch / Hot Reload
+.dotnet/
+*.watch
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Certificates
+*.pfx
+*.cer
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+## ===============================
+## DO NOT IGNORE (important)
+## ===============================
+# wwwroot/
+# *.cshtml
+# *.css
+# *.js
