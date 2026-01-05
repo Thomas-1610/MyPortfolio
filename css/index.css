@@ -1,0 +1,235 @@
+/* =========================
+   VARIÁVEIS GLOBAIS
+========================= */
+:root {
+  --bg: #0f0f13;
+  --card: #18181f;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #6366f1;
+}
+
+/* =========================
+   RESET + BASE
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* =========================
+   HEADER / NAV
+========================= */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(12px);
+  background: rgba(15, 15, 19, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.header nav a {
+  color: var(--muted);
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: var(--accent);
+}
+
+/* =========================
+   HERO
+========================= */
+.hero {
+  padding: 6rem 2rem;
+}
+
+.hero-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-text h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.hero-text p {
+  margin: 1rem 0 1.8rem;
+  color: var(--muted);
+  max-width: 480px;
+  font-size: 1.05rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.75rem 1.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.35);
+}
+
+/* FOTO DO HERO */
+.hero-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--accent);
+  box-shadow: 0 0 40px rgba(99, 102, 241, 0.35);
+}
+
+/* =========================
+   SEÇÕES
+========================= */
+.section {
+  padding: 4rem 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section h3 {
+  font-size: 1.9rem;
+  margin-bottom: 1.2rem;
+}
+
+.section p {
+  color: var(--muted);
+  max-width: 800px;
+}
+
+/* =========================
+   SKILLS
+========================= */
+.skills {
+  margin-top: 1.5rem;
+}
+
+.skills span {
+  display: inline-block;
+  background: var(--card);
+  color: var(--text);
+  padding: 0.55rem 1.2rem;
+  border-radius: 999px;
+  margin: 0.4rem 0.3rem;
+  font-size: 0.95rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.skills span:hover {
+  background: rgba(99, 102, 241, 0.15);
+  transform: translateY(-2px);
+}
+
+/* =========================
+   PROJETOS
+========================= */
+.cards {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+}
+
+.card {
+  background: var(--card);
+  padding: 1.6rem;
+  border-radius: 14px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* =========================
+   CONTATO
+========================= */
+#contato p {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-photo img {
+    width: 220px;
+    height: 220px;
+    margin-top: 2rem;
+  }
+
+  .header nav a {
+    margin-left: 1rem;
+  }
+}

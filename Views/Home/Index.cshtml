@@ -1,0 +1,104 @@
+@{
+    ViewData["Title"] = "Portfólio";
+    Layout = "_Layout";
+}
+
+@section Styles {
+  <link rel="stylesheet" href="~/css/home.css">
+}
+
+<section class="hero">
+  <div class="hero-grid">
+    
+    <div class="hero-text">
+      <h2>Desenvolvedor em formação 🎓</h2>
+      <p>
+        Estudante de Análise e Desenvolvimento de Sistemas focado em Web,
+        UI.
+      </p>
+      <a href="#projetos" class="btn">Ver Projetos</a>
+    </div>
+
+    <div class="hero-photo">
+      <img src="~/images/ChatGPT Image 4 de jan. de 2026, 14_26_28.png" alt="Foto de Thomas Castro">
+    </div>
+
+  </div>
+</section>
+
+<section id="sobre" class="section">
+  <h3>Sobre mim</h3>
+  <p>
+    Sou estudante de ADS na FATEC Sorocaba, com formação técnica em Desenvolvimento de Sistemas.
+    Tenho interesse em desenvolvimento web, design de interfaces e aplicações modernas.
+  </p>
+</section>
+
+<section id="skills" class="section">
+  <h3>Habilidades</h3>
+  <div class="skills">
+    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+    <span>ASP.NET</span><span>SQL Server</span>
+    <span>Figma</span><span>Git</span>
+  </div>
+</section>
+
+<section id="projetos" class="section">
+  <h3>Projetos</h3>
+
+  <div class="cards">
+    <div class="card">
+      <h4>Aurum Legacy</h4>
+      <p>E-commerce de carros usando ASP.NET Core e MVC.</p>
+    </div>
+
+    <div class="card">
+      <h4>Totem E-commerce</h4>
+      <p>Interface de autoatendimento inspirada em totens comerciais.</p>
+    </div>
+
+    <div class="card">
+      <h4>Jogo em GDScript</h4>
+      <p>Projeto de TCC com foco em lógica e gameplay.</p>
+    </div>
+  </div>
+</section>
+
+<section id="extracurriculares" class="section">
+  <h3>Experiências Extracurriculares</h3>
+
+  <div class="cards">
+    <div class="card">
+      <h4>Encontro com Empresa X</h4>
+      <p>
+        Participei de uma palestra e workshop sobre desenvolvimento web avançado e boas práticas de projeto,
+        conectando teoria e prática com profissionais da área.
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>Visita Técnica – Empresa Y</h4>
+      <p>
+        Visita técnica com foco em metodologias ágeis e processos de desenvolvimento de software em ambiente corporativo.
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>Hackathon / Meetups</h4>
+      <p>
+        Participei de eventos de tecnologia, hackathons e meetups para aprimorar habilidades de programação
+        e colaboração em equipe.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="section">
+  <h3>Contato</h3>
+  <p>📧 thomaslcl.1610@gmail.com</p>
+  <p>📱 (15) 98810-4873</p>
+</section>
+
+@section Scripts {
+  <script src="~/js/home.js"></script>
+}
