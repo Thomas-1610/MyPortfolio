@@ -1,0 +1,18 @@
+
+.btnWhats, .btnEmail {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnWhats:hover,.btnEmail:hover {
+  transform: translateY(-2px);
+}
