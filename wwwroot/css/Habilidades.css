@@ -1,4 +1,17 @@
 
+/*------------------------------------------------------*/
+
+
+.card{
+    cursor: pointer;
+}.card:hover{
+    background-color: var(--accent);
+}
+
+
+
+
+
 .btnWhats, .btnEmail {
   display: inline-block;
   color: #fff;
