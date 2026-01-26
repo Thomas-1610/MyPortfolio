@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = "Portfólio";
+    Layout = "_Layout";
+}
+
+@section Styles {
+  <link rel="stylesheet" href="~/css/home.css">
+  <link rel="stylesheet" href="~/css/Projetos.css">
+  <link rel="stylesheet" href="~/css/Habilidades.css">
+}
+
+<section class="hero">
+  <canvas id="particles-canvas"></canvas>
+  <div class="hero-grid">
+    
+    <div class="hero-text">
+      <h2>PaintingLies</h2>
+
+    </div>
+
+    <div class="hero-photo">
+      Projetos acadêmicos desenvolvidos durante minha faculdade.
+    </div>
+
+  </div>
+</section>
+
+
+<section id="projetos" class="section">
+  <h3>Projetos</h3>
+
+  <div class="cards">
+    <a href="/Home/AurumLegacy" class="cardClick">
+        <div class="card">
+            <h4>Aurum Legacy</h4>
+            <p>E-commerce de carros usando ASP.NET Core e MVC.</p>
+        </div>
+    </a>
+
+    <a href="" class="cardClick">
+        <div class="card">
+        <h4>Totem E-commerce</h4>
+        <p>Interface de autoatendimento inspirada em totens comerciais.</p>
+        </div>
+    </a>
+
+    <a href="" class="cardClick">
+        <div class="card">
+        <h4>Jogo em GDScript</h4>
+        <p>Projeto de TCC com foco em lógica e gameplay.</p>
+        </div>
+    </a>
+  </div>
+</section>
+
+
+
+
+@section Scripts {
+  <script src="~/js/home.js"></script>
+}

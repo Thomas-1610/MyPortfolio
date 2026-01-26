@@ -4,6 +4,7 @@
 
 .card{
     cursor: pointer;
+    text-decoration: none;
 }.card:hover{
     background-color: var(--accent);
 }
