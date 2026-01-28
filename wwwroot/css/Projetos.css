@@ -2,3 +2,11 @@
     text-decoration: none;
     color: var(--text);
 }
+.hero {
+  min-height: 48vh;
+}
+.SubText{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: var(--subtext);
+}
