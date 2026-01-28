@@ -57,10 +57,7 @@ body {
 .header nav a:hover {
   color: var(--accent);
 }
-.icon1{
-  width: 10px;
-  height: auto;
-}
+
 
 /* =========================
    HERO

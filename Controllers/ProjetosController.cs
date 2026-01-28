@@ -20,4 +20,9 @@ public class ProjetosController : Controller
     {
         return View();
     }
+    public IActionResult FabricaDeSoftware()
+    {
+        return View();
+    }
+
 }

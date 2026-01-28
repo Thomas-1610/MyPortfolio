@@ -9,7 +9,10 @@
   display: flex;
   align-items: center;
 }
-
+.icon1{
+  width: 30px;
+  height: auto;
+}
 #particles-canvas {
   position: absolute;
   top: 0;

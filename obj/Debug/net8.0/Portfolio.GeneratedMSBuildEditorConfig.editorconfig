@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcQXVydW1MZWdhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/thoma/Desktop/Pessoal/MyPortfolio/Views/Projetos/FabricaDeSoftware.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcRmFicmljYURlU29mdHdhcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/thoma/Desktop/Pessoal/MyPortfolio/Views/Projetos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/thoma/Desktop/Pessoal/MyPortfolio/Views/Projetos/Totem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcVG90ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thoma/Desktop/Pessoal/MyPortfolio/Views/Shared/_BackButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYWNrQnV0dG9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/thoma/Desktop/Pessoal/MyPortfolio/Views/Shared/_Footer.cshtml]
