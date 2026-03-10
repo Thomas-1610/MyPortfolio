@@ -113,6 +113,8 @@
   margin: 0.4rem 0.3rem;
   font-size: 0.95rem;
   transition: background 0.3s, transform 0.2s;
+  color: #fff;
+  text-decoration: none;
 }
 
 .skills span:hover {
@@ -151,7 +153,16 @@
   transform: translateY(-6px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
+.textSpan {
+  color: --var(primary);
+  padding-left: 70px;
+  align-items: center;
+  display: inline-block;
+  justify-content: center; /* Opcional: Alinha horizontalmente */
+  text-align: center  ;
+  decoration: none;
 
+}
 /* =========================
    CONTATO
 ========================= */

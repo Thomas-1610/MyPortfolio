@@ -84,3 +84,4 @@ C:\Users\thoma\Desktop\Pessoal\MyPortfolio\obj\Debug\net8.0\refint\Portfolio.dll
 C:\Users\thoma\Desktop\Pessoal\MyPortfolio\obj\Debug\net8.0\Portfolio.pdb
 C:\Users\thoma\Desktop\Pessoal\MyPortfolio\obj\Debug\net8.0\Portfolio.genruntimeconfig.cache
 C:\Users\thoma\Desktop\Pessoal\MyPortfolio\obj\Debug\net8.0\ref\Portfolio.dll
+C:\Users\thoma\Desktop\Pessoal\MyPortfolio\obj\Debug\net8.0\swae.build.ex.cache
