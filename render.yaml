@@ -1,0 +1,19 @@
+services:
+  # Web Service
+  - type: web
+    name: portfolio
+    env: dotnet
+    plan: free
+    buildCommand: "dotnet publish -c Release -o out"
+    startCommand: "dotnet out/Portfolio.dll"
+    healthCheckPath: /
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ASPNETCORE_URLS
+        value: http://0.0.0.0:${PORT}
+
+# Configuração do banco de dados (se precisar no futuro)
+databases:
+  - name: portfolio-db
+    plan: free
