@@ -27,13 +27,30 @@
   <div class="skills">
     <span>HTML</span><span>CSS</span><span>JavaScript</span>
     <span>ASP.NET</span><span>SQL Server</span>
-    <span>Figma</span><span>Git</span>
+    <span>Figma</span><span>Git</span><span>PhpMyAdmin</span>
+  </div>
+</section>
+
+<section id="cursos" class="section">
+  <h3>Cursos</h3>
+  <div class="skills">
+    <a href="#" class="cardClick course-modal-link" data-course="ingles" onclick="openModal('ingles'); return false;">
+      <span>
+        <img src="~/img/EUA.png" alt="USA Flag" class="flag-icon">
+        Inglês
+      </span>
+    </a>
+    <a href="#" class="cardClick course-modal-link" data-course="certificacoes" onclick="openModal('certificacoes'); return false;">
+      <span>
+        <img src="~/img/IBM.png" alt="USA Flag" class="flag-icon">
+        Certificações
+      </span>
+    </a>
   </div>
 </section>
 
 
-
-
 @section Scripts {
   <script src="~/js/home.js"></script>
+    <script src="~/js/modal.js"></script>
 }

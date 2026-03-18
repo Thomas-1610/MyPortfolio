@@ -1,0 +1,62 @@
+@model dynamic
+
+<div class="modal-overlay" id="courseModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>@Model?.Title ?? "Informações do Curso"</h3>
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="course-info">
+                @if (Model?.CourseType == "ingles")
+                {
+                    <div class="course-section">
+                        <h4>🇺🇸 Curso de Inglês</h4>
+                        <p><strong>Instituição:</strong> EE. Dr. Julio Prestes de Albuquerque</p>
+                        <p><strong>Duração:</strong> 1 ano</p>
+                        <p><strong>Nível:</strong> intermediário</p>
+                        <p><strong>Descrição:</strong> Curso de inglês com foco em comunicação básica e intermediária.</p>
+                        
+                        <div class="course-skills">
+                            <h5>Competências Desenvolvidas:</h5>
+                            <ul>
+                                <li>Comunicação em inglês</li>
+                                <li>Anáçises de textos em inglês</li>
+                                <li>Participação em discussões</li>
+                                <li>Tarefas e atividades</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="course-certification">
+                            <h5>Certificações:</h5>
+                            <p>• TOEFL IBT: 95 pontos</p>
+                            <p>• Cambridge English: Advanced (CAE)</p>
+                        </div>
+                    </div>
+                }
+                else if (Model?.CourseType == "certificacoes")
+                {
+                    <div class="course-section">
+                        <h4>🏆 Certificações Profissionais</h4>
+                        <p><strong>Plataforma:</strong> Diversas</p>
+                        <p><strong>Área:</strong> Desenvolvimento Web e Cloud</p>
+                        <p><strong>Descrição:</strong> Certificações que validam conhecimentos técnicos em tecnologias modernas.</p>
+                        
+                        <div class="course-skills">
+                            <h5>Certificações Principais:</h5>
+                            <ul>
+                                <li>Microsoft Certified: Azure Developer Associate</li>
+                                <li>AWS Certified Cloud Practitioner</li>
+                                <li>JavaScript Algorithms and Data Structures</li>
+                                <li>React - The Complete Guide</li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn modal-btn" onclick="closeModal()">Fechar</button>
+        </div>
+    </div>
+</div>
