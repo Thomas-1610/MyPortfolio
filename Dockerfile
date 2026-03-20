@@ -10,7 +10,7 @@ COPY ["Portfolio.csproj", "./"]
 RUN dotnet restore "./Portfolio.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet publish "Portfolio.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Portfolio.csproj" -c Release -o /app/publish
 
 # Final stage
 FROM base AS final
