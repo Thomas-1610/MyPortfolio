@@ -1,11 +1,11 @@
 services:
   # Web Service
   - type: web
-    name: portfolio
-    env: dotnet
+    name: MyPortfolio
+    env: docker
     plan: free
-    buildCommand: "dotnet publish -c Release -o out"
-    startCommand: "dotnet out/Portfolio.dll"
+    buildCommand: "docker build -t MyPortfolio ."
+    startCommand: "docker run -p $PORT:8080 MyPortfolio"
     healthCheckPath: /
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
